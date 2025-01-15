@@ -1886,6 +1886,17 @@ hr {
   color: #797979 !important;
 }
 
+.container-white {
+  border-radius: 20px;
+  background-color: white!important;
+}
+
+button.btn {
+  background-color: #28a745;
+  margin: 32px;
+  color: white;
+}
+
 @media (max-width: 1199.98px) {
   .contact-section .contact-form .form-group {
     margin-bottom: 35px;
