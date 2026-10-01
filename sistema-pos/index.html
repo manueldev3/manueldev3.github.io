@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Sistema POS para panaderías | ManuelDeveloper</title>
+    <meta name="description"
+        content="Sistema POS por suscripción para panaderías: facturación en caja, comandas, inventario y control de caja. Planes desde $100.000 COP al mes, con 2 meses gratis en pago anual.">
+    <meta name="keywords"
+        content="sistema POS, punto de venta, POS panadería, software panadería, facturación, inventario, Colombia, ManuelDeveloper">
+    <meta name="author" content="Manuel">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://manueldeveloper.com/sistema-pos/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:title" content="Sistema POS para panaderías | ManuelDeveloper">
+    <meta property="og:description"
+        content="Vende más rápido y controla tu panadería con un sistema POS por suscripción. Planes desde $100.000 COP al mes.">
+    <meta property="og:url" content="https://manueldeveloper.com/sistema-pos/">
+    <meta property="og:site_name" content="ManuelDeveloper">
+    <meta property="og:image" content="https://manueldeveloper.com/assets/images/sistema-pos.jpeg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sistema POS para panaderías | ManuelDeveloper">
+    <meta name="twitter:description" content="Sistema POS por suscripción para panaderías. Planes desde $100.000 COP al mes.">
+    <meta name="twitter:image" content="https://manueldeveloper.com/assets/images/sistema-pos.jpeg">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Sistema POS para panaderías",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://manueldeveloper.com/sistema-pos/",
+        "author": { "@type": "Person", "name": "Manuel", "url": "https://manueldeveloper.com/" },
+        "offers": [
+            { "@type": "Offer", "name": "Plan Básico", "price": "100000", "priceCurrency": "COP" },
+            { "@type": "Offer", "name": "Plan Premium", "price": "200000", "priceCurrency": "COP" },
+            { "@type": "Offer", "name": "Plan Empresarial", "price": "500000", "priceCurrency": "COP" }
+        ]
+    }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.ico">
+    <!-- CSS
+    ============================================ -->
+    <link rel="stylesheet" href="../assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/vendor/slick.css">
+    <link rel="stylesheet" href="../assets/css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="../assets/css/vendor/aos.css">
+    <link rel="stylesheet" href="../assets/css/plugins/feature.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/pos-landing.css">
+</head>
+
+<body class="template-color-1 spybody pos-landing" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
+
+    <!-- Start Header -->
+    <header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
+        <div class="header-wrapper rn-popup-mobile-menu m--0 row align-items-center">
+            <!-- Start Header Left -->
+            <div class="col-lg-2 col-6">
+                <div class="header-left">
+                    <div class="logo">
+                        <a href="../index.html">
+                            <img src="../assets/images/logo/logo.png" alt="Logotipo de ManuelDeveloper">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Header Left -->
+            <!-- Start Header Center -->
+            <div class="col-lg-10 col-6">
+                <div class="header-center">
+                    <nav id="sideNav" class="mainmenu-nav navbar-example2 d-none d-xl-block onepagenav">
+                        <!-- Start Mainmanu Nav -->
+                        <ul class="primary-menu nav nav-pills">
+                            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#funciones">Funciones</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#planes">Planes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#equipos">Equipos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#faq">Preguntas</a></li>
+                            <li class="nav-item"><a class="nav-link external" href="../index.html">Portafolio</a></li>
+                        </ul>
+                        <!-- End Mainmanu Nav -->
+                    </nav>
+                    <!-- Start Header Right  -->
+                    <div class="header-right">
+                        <a class="rn-btn js-wa" target="_blank" rel="noopener"
+                            data-msg="Hola Manuel, quiero información sobre el sistema POS para panaderías."
+                            href="https://wa.me/573024833281"><span>COTIZAR (WS)</span></a>
+                        <div class="hamberger-menu d-block d-xl-none">
+                            <i id="menuBtn" class="feather-menu humberger-menu"></i>
+                        </div>
+                        <div class="close-menu d-block">
+                            <span class="closeTrigger">
+                                <i data-feather="x"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- End Header Right  -->
+                </div>
+            </div>
+            <!-- End Header Center -->
+        </div>
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Start Popup Mobile Menu  -->
+    <div class="popup-mobile-menu">
+        <div class="inner">
+            <div class="menu-top">
+                <div class="menu-header">
+                    <a class="logo" href="../index.html">
+                        <img src="../assets/images/logo/logo.png" alt="Logotipo de ManuelDeveloper">
+                    </a>
+                    <div class="close-button">
+                        <button class="close-menu-activation close"><i data-feather="x"></i></button>
+                    </div>
+                </div>
+                <p class="discription">Sistema POS por suscripción para panaderías.</p>
+            </div>
+            <div class="content">
+                <ul class="primary-menu nav nav-pills onepagenav">
+                    <li class="nav-item current"><a class="nav-link smoth-animation active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#funciones">Funciones</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#planes">Planes</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#equipos">Equipos</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#faq">Preguntas</a></li>
+                    <li class="nav-item"><a class="nav-link external" href="../index.html">Portafolio</a></li>
+                </ul>
+                <div class="social-share-style-1 mt--40">
+                    <span class="title">Escríbeme</span>
+                    <ul class="social-share d-flex liststyle">
+                        <li class="linkedin"><a class="js-wa" target="_blank" rel="noopener"
+                                data-msg="Hola Manuel, quiero información sobre el sistema POS para panaderías."
+                                href="https://wa.me/573024833281"><i data-feather="message-circle"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Popup Mobile Menu  -->
+
+    <main class="main-page-wrapper">
+
+        <!-- Start Hero Area -->
+        <div id="inicio" class="rn-slider-area">
+            <div class="slide slider-style-1">
+                <div class="container">
+                    <div class="row row--30 align-items-center">
+                        <div class="order-2 order-lg-1 col-lg-6 mt_md--50 mt_sm--50 mt_lg--30">
+                            <div class="content">
+                                <div class="inner">
+                                    <span class="pos-badge"><i data-feather="shopping-bag"></i> Sistema POS para
+                                        panaderías</span>
+                                    <h1 class="title">Cobra más rápido y <span>controla tu panadería</span></h1>
+                                    <p class="description">
+                                        Un punto de venta táctil hecho para el ritmo de una panadería: ventas en
+                                        mostrador, comandas de mesa, inventario, turnos y caja en un solo lugar.
+                                        Sin comprar licencias: pagas una suscripción mensual y yo me encargo del
+                                        sistema.
+                                    </p>
+                                    <div class="pos-hero-actions">
+                                        <a class="rn-btn js-wa" target="_blank" rel="noopener"
+                                            data-msg="Hola Manuel, quiero una demostración del sistema POS para mi panadería."
+                                            href="https://wa.me/573024833281">
+                                            <i data-feather="message-circle"></i><span>PEDIR DEMOSTRACIÓN</span>
+                                        </a>
+                                        <a class="rn-btn smoth-animation" href="#planes">
+                                            <span>VER PLANES</span><i data-feather="arrow-down"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-1 order-lg-2 col-lg-6">
+                            <div class="pos-hero-thumb">
+                                <img src="../assets/images/sistema-pos.jpeg"
+                                    alt="Pantalla del sistema POS para panaderías">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Hero Area -->
+
+        <!-- Start Funciones Area -->
+        <div class="rn-service-area rn-section-gap section-separator" id="funciones">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500"
+                            data-aos-delay="100" data-aos-once="true">
+                            <span class="subtitle">Funciones</span>
+                            <h2 class="title">Todo lo que tu caja necesita</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row--25">
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
+                        class="col-lg-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="pos-card">
+                            <div class="icon"><i data-feather="shopping-cart"></i></div>
+                            <h4>Ventas en mostrador</h4>
+                            <p>Registra ventas directas en segundos desde una interfaz táctil e intuitiva, pensada
+                                para las horas de mayor movimiento.</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" data-aos-once="true"
+                        class="col-lg-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="pos-card">
+                            <div class="icon"><i data-feather="coffee"></i></div>
+                            <h4>Comandas de mesa</h4>
+                            <p>Si tu panadería tiene cafetería o mesas, toma pedidos por mesa y envíalos al instante
+                                para que se preparen sin errores.</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true"
+                        class="col-lg-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="pos-card">
+                            <div class="icon"><i data-feather="package"></i></div>
+                            <h4>Control de inventario</h4>
+                            <p>Conoce las existencias de tus productos e insumos al momento de cada venta y evita
+                                quedarte sin lo que más se vende.</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
+                        class="col-lg-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="pos-card">
+                            <div class="icon"><i data-feather="dollar-sign"></i></div>
+                            <h4>Caja y turnos</h4>
+                            <p>Abre y cierra turnos, controla el flujo de caja y sabe exactamente cuánto se vendió
+                                en cada jornada.</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" data-aos-once="true"
+                        class="col-lg-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="pos-card">
+                            <div class="icon"><i data-feather="users"></i></div>
+                            <h4>Usuarios por roles</h4>
+                            <p>Cada cajero, mesero o administrador entra con su propio usuario y solo ve lo que le
+                                corresponde.</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true"
+                        class="col-lg-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="pos-card">
+                            <div class="icon"><i data-feather="printer"></i></div>
+                            <h4>Impresoras térmicas</h4>
+                            <p>Compatible con impresoras térmicas ESC/POS y dispositivos locales para imprimir
+                                tickets y comandas sin demoras.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Funciones Area -->
+
+        <!-- Start Planes Area -->
+        <div class="rn-pricing-area rn-section-gap section-separator" id="planes">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500"
+                            data-aos-delay="100" data-aos-once="true">
+                            <span class="subtitle">Planes de suscripción</span>
+                            <h2 class="title">Elige el plan para tu negocio</h2>
+                            <div class="pos-billing-toggle" role="group" aria-label="Periodo de facturación">
+                                <button type="button" class="active" data-billing="monthly"
+                                    aria-pressed="true">Mensual</button>
+                                <button type="button" data-billing="annual" aria-pressed="false">Anual
+                                    <small>(2 meses gratis)</small></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row--25">
+                    <!-- Plan Básico -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
+                        class="col-lg-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="pos-plan" data-plan="Básico" data-monthly="100000">
+                            <span class="plan-name">Plan Básico</span>
+                            <h3 class="plan-title">POS local</h3>
+                            <p class="plan-summary">El sistema funciona en tu equipo con la base de datos guardada
+                                en la misma máquina.</p>
+                            <div class="price"><span class="js-price">$100.000</span> <small
+                                    class="js-period">/ mes</small></div>
+                            <div class="price-note js-note"></div>
+                            <ul>
+                                <li><i data-feather="check"></i>Base de datos local en tu equipo</li>
+                                <li><i data-feather="check"></i>Funciona sin conexión a internet</li>
+                                <li><i data-feather="check"></i>Ventas, comandas, inventario y caja</li>
+                                <li><i data-feather="check"></i>Impresión en impresoras térmicas</li>
+                                <li><i data-feather="check"></i>Instalación y soporte</li>
+                            </ul>
+                            <a class="rn-btn js-wa js-plan-btn" target="_blank" rel="noopener"
+                                href="https://wa.me/573024833281"><i data-feather="message-circle"></i><span>QUIERO
+                                    ESTE PLAN</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Plan Premium -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" data-aos-once="true"
+                        class="col-lg-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="pos-plan featured" data-plan="Premium" data-monthly="200000">
+                            <span class="ribbon">Más elegido</span>
+                            <span class="plan-name">Plan Premium</span>
+                            <h3 class="plan-title">POS conectado a internet</h3>
+                            <p class="plan-summary">Tu información en la nube: consulta ventas y caja desde
+                                cualquier lugar.</p>
+                            <div class="price"><span class="js-price">$200.000</span> <small
+                                    class="js-period">/ mes</small></div>
+                            <div class="price-note js-note"></div>
+                            <ul>
+                                <li><i data-feather="check"></i>Todo lo del Plan Básico</li>
+                                <li><i data-feather="check"></i>Sistema conectado a internet</li>
+                                <li><i data-feather="check"></i>Datos sincronizados en tiempo real</li>
+                                <li><i data-feather="check"></i>Revisa tu negocio desde cualquier lugar</li>
+                                <li><i data-feather="check"></i>Información respaldada en la nube</li>
+                            </ul>
+                            <a class="rn-btn js-wa js-plan-btn" target="_blank" rel="noopener"
+                                href="https://wa.me/573024833281"><i data-feather="message-circle"></i><span>QUIERO
+                                    ESTE PLAN</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Plan Empresarial -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true"
+                        class="col-lg-4 col-md-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="pos-plan" data-plan="Empresarial" data-monthly="500000">
+                            <span class="plan-name">Plan Empresarial</span>
+                            <h3 class="plan-title">Nube + servidor propio</h3>
+                            <p class="plan-summary">Conectado a la red y con respaldo en un servidor local propio:
+                                tu negocio nunca se detiene.</p>
+                            <div class="price"><span class="js-price">$500.000</span> <small
+                                    class="js-period">/ mes</small></div>
+                            <div class="price-note js-note"></div>
+                            <ul>
+                                <li><i data-feather="check"></i>Todo lo del Plan Premium</li>
+                                <li><i data-feather="check"></i>Respaldo local en servidor propio</li>
+                                <li><i data-feather="check"></i>Sigue vendiendo aunque se caiga el internet</li>
+                                <li><i data-feather="check"></i>Sincroniza con la nube al volver la conexión</li>
+                                <li><i data-feather="check"></i>Soporte prioritario</li>
+                            </ul>
+                            <a class="rn-btn js-wa js-plan-btn" target="_blank" rel="noopener"
+                                href="https://wa.me/573024833281"><i data-feather="message-circle"></i><span>QUIERO
+                                    ESTE PLAN</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="pos-pricing-note">Precios en pesos colombianos (COP). Todos los planes tienen opción de
+                    pago anual con 2 meses de descuento. Los equipos (computador, impresora, cajón monedero, etc.) no
+                    están incluidos: <a class="smoth-animation" href="#equipos">te asesoro en su compra</a>.</p>
+            </div>
+        </div>
+        <!-- End Planes Area -->
+
+        <!-- Start Equipos Area -->
+        <div class="rn-section-gap section-separator" id="equipos">
+            <div class="container">
+                <div class="row row--30 align-items-center">
+                    <div class="col-lg-5" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+                        <div class="section-title text-left">
+                            <span class="subtitle">Equipos</span>
+                            <h2 class="title">Te acompaño en la compra de tus equipos</h2>
+                        </div>
+                        <p class="mt--20">Los equipos se compran directamente con proveedores terceros, así eliges el
+                            precio y la tienda que más te convenga. Yo te asesoro para que compres solo lo que
+                            necesitas y todo funcione con el sistema desde el primer día.</p>
+                    </div>
+                    <div class="col-lg-7 mt_md--40 mt_sm--40" data-aos="fade-up" data-aos-duration="500"
+                        data-aos-delay="200" data-aos-once="true">
+                        <ol class="pos-steps">
+                            <li>
+                                <h5>Analizamos tu negocio</h5>
+                                <p>Revisamos cuántas cajas, puestos y usuarios necesitas y qué plan se ajusta mejor.</p>
+                            </li>
+                            <li>
+                                <h5>Te recomiendo los equipos</h5>
+                                <p>Computador o pantalla táctil, impresora térmica, lector de códigos y demás
+                                    periféricos compatibles.</p>
+                            </li>
+                            <li>
+                                <h5>Compras con el proveedor que elijas</h5>
+                                <p>La compra la haces directamente con terceros; te acompaño para que no pagues de más.</p>
+                            </li>
+                            <li>
+                                <h5>Instalo y configuro el sistema</h5>
+                                <p>Dejo el POS listo con tus productos y usuarios para que empieces a vender.</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Equipos Area -->
+
+        <!-- Start FAQ Area -->
+        <div class="rn-section-gap section-separator" id="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500"
+                            data-aos-once="true">
+                            <span class="subtitle">Preguntas frecuentes</span>
+                            <h2 class="title">Resolvemos tus dudas</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt--50">
+                    <div class="col-lg-9">
+                        <div class="accordion pos-faq" id="posFaq">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faq-h1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-1" aria-expanded="true" aria-controls="faq-1">
+                                        ¿Cuál es la diferencia entre los planes?
+                                    </button>
+                                </h3>
+                                <div id="faq-1" class="accordion-collapse collapse show" aria-labelledby="faq-h1"
+                                    data-bs-parent="#posFaq">
+                                    <div class="accordion-body">El Plan Básico guarda la información solo en tu
+                                        equipo. El Premium la conecta a internet para que la consultes desde cualquier
+                                        lugar. El Empresarial combina ambas: trabaja en la nube y además mantiene un
+                                        respaldo en un servidor local propio, así puedes seguir vendiendo aunque no
+                                        haya internet.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faq-h2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-2" aria-expanded="false" aria-controls="faq-2">
+                                        ¿Cómo funciona el pago anual?
+                                    </button>
+                                </h3>
+                                <div id="faq-2" class="accordion-collapse collapse" aria-labelledby="faq-h2"
+                                    data-bs-parent="#posFaq">
+                                    <div class="accordion-body">Si pagas el año completo, pagas 10 meses y recibes 12:
+                                        tienes 2 meses de descuento en cualquiera de los planes.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faq-h3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-3" aria-expanded="false" aria-controls="faq-3">
+                                        ¿Los equipos están incluidos en la suscripción?
+                                    </button>
+                                </h3>
+                                <div id="faq-3" class="accordion-collapse collapse" aria-labelledby="faq-h3"
+                                    data-bs-parent="#posFaq">
+                                    <div class="accordion-body">No. Los equipos se compran con proveedores terceros.
+                                        Lo que sí incluye es mi asesoría para que elijas equipos compatibles y al mejor
+                                        precio.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faq-h4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-4" aria-expanded="false" aria-controls="faq-4">
+                                        ¿Puedo cambiar de plan más adelante?
+                                    </button>
+                                </h3>
+                                <div id="faq-4" class="accordion-collapse collapse" aria-labelledby="faq-h4"
+                                    data-bs-parent="#posFaq">
+                                    <div class="accordion-body">Sí. Si tu negocio crece puedes pasar a un plan
+                                        superior. Escríbeme por WhatsApp y coordinamos el cambio.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faq-h5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-5" aria-expanded="false" aria-controls="faq-5">
+                                        ¿Solo sirve para panaderías?
+                                    </button>
+                                </h3>
+                                <div id="faq-5" class="accordion-collapse collapse" aria-labelledby="faq-h5"
+                                    data-bs-parent="#posFaq">
+                                    <div class="accordion-body">Por ahora el sistema está adaptado a panaderías.
+                                        Muy pronto habrá versiones para otros tipos de negocio; si te interesa,
+                                        escríbeme y te aviso.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End FAQ Area -->
+
+        <!-- Start CTA Area -->
+        <div class="rn-section-gap">
+            <div class="container">
+                <div class="pos-cta" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+                    <h2>¿Listo para modernizar tu panadería?</h2>
+                    <p>Escríbeme por WhatsApp, cuéntame cómo funciona tu negocio y te muestro el sistema en acción.</p>
+                    <a class="rn-btn js-wa" target="_blank" rel="noopener"
+                        data-msg="Hola Manuel, quiero una demostración del sistema POS para mi panadería."
+                        href="https://wa.me/573024833281">
+                        <i data-feather="message-circle"></i><span>HABLAR POR WHATSAPP</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- End CTA Area -->
+
+        <!-- Back to top Start -->
+        <div class="backto-top">
+            <div>
+                <i data-feather="arrow-up"></i>
+            </div>
+        </div>
+        <!-- Back to top end -->
+
+    </main>
+
+    <!-- WhatsApp flotante -->
+    <a class="pos-wa-float js-wa" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp"
+        data-msg="Hola Manuel, quiero información sobre el sistema POS para panaderías."
+        href="https://wa.me/573024833281"><i data-feather="message-circle"></i></a>
+
+    <!-- Start Footer Area -->
+    <div class="rn-footer-area rn-section-gap section-separator">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-area text-center">
+                        <div class="logo">
+                            <a href="../index.html">
+                                <img src="../assets/images/logo/logo-vertical.png" alt="Logotipo de ManuelDeveloper">
+                            </a>
+                        </div>
+                        <p class="description mt--30">© 2026. Todos los derechos reservados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Area -->
+
+    <!-- JS ============================================ -->
+    <script src="../assets/js/vendor/jquery.js"></script>
+    <script src="../assets/js/vendor/modernizer.min.js"></script>
+    <script src="../assets/js/vendor/feather.min.js"></script>
+    <script src="../assets/js/vendor/slick.min.js"></script>
+    <script src="../assets/js/vendor/bootstrap.js"></script>
+    <script src="../assets/js/vendor/text-type.js"></script>
+    <script src="../assets/js/vendor/wow.js"></script>
+    <script src="../assets/js/vendor/aos.js"></script>
+    <script src="../assets/js/vendor/particles.js"></script>
+    <script src="../assets/js/vendor/jquery-one-page-nav.js"></script>
+    <!-- main JS -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        (function () {
+            var WA_NUMBER = '573024833281';
+            var billing = 'monthly';
+
+            function waUrl(msg) {
+                return 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg);
+            }
+
+            function formatCOP(value) {
+                return '$' + value.toLocaleString('es-CO');
+            }
+
+            // Enlaces genéricos de WhatsApp con mensaje predefinido
+            document.querySelectorAll('.js-wa[data-msg]').forEach(function (link) {
+                link.href = waUrl(link.dataset.msg);
+            });
+
+            // Precios y mensajes de cada plan según el periodo elegido
+            function renderPlans() {
+                document.querySelectorAll('.pos-plan').forEach(function (plan) {
+                    var monthly = Number(plan.dataset.monthly);
+                    var annual = monthly * 10;
+                    var isAnnual = billing === 'annual';
+
+                    plan.querySelector('.js-price').textContent = formatCOP(isAnnual ? annual : monthly);
+                    plan.querySelector('.js-period').textContent = isAnnual ? '/ año' : '/ mes';
+                    plan.querySelector('.js-note').textContent = isAnnual
+                        ? 'Ahorras ' + formatCOP(monthly * 2) + ' (2 meses gratis)'
+                        : '';
+
+                    plan.querySelector('.js-plan-btn').href = waUrl(
+                        'Hola Manuel, me interesa el Plan ' + plan.dataset.plan + ' del sistema POS para panaderías' +
+                        (isAnnual
+                            ? ' con pago anual (' + formatCOP(annual) + ' al año).'
+                            : ' con pago mensual (' + formatCOP(monthly) + ' al mes).')
+                    );
+                });
+            }
+
+            document.querySelectorAll('.pos-billing-toggle button').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    billing = btn.dataset.billing;
+                    document.querySelectorAll('.pos-billing-toggle button').forEach(function (b) {
+                        var active = b === btn;
+                        b.classList.toggle('active', active);
+                        b.setAttribute('aria-pressed', active);
+                    });
+                    renderPlans();
+                });
+            });
+
+            renderPlans();
+        })();
+    </script>
+</body>
+
+</html>
