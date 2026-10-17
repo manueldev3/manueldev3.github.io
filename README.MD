@@ -8,7 +8,7 @@ El sitio está construido como una página única estática y presenta la experi
 
 - **Inicio:** presentación, especialidades y enlaces a LinkedIn, GitHub y WhatsApp.
 - **Habilidades:** automatización con IA, desarrollo de aplicaciones, desarrollo web, diseño UI/UX, backend y DevOps.
-- **Portafolio:** SCG App (comercio para Star Citizen), Sistema POS, RetroMail y Freelancerm.com (CRM para freelancers), desarrollados con Next.js y Firebase.
+- **Portafolio:** SCG App (guía de comercio para Star Citizen), Sistema POS, RetroMail y Freelancerm.com (CRM para freelancers).
 - **CV:** experiencia, habilidades profesionales y formación académica.
 - **Contacto:** acceso directo a WhatsApp.
 
