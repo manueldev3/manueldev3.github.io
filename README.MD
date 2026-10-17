@@ -8,7 +8,7 @@ El sitio está construido como una página única estática y presenta la experi
 
 - **Inicio:** presentación, especialidades y enlaces a LinkedIn, GitHub y WhatsApp.
 - **Habilidades:** automatización con IA, desarrollo de aplicaciones, desarrollo web, diseño UI/UX, backend y DevOps.
-- **Portafolio:** SCG App (guía de comercio para Star Citizen), Sistema POS, RetroMail, Freelancerm.com (CRM para freelancers) y CuántoVale (comparador de precios de supermercados).
+- **Portafolio:** SCG App (guía de comercio para Star Citizen), Sistema POS, RetroMail, Freelancerm.com (CRM para freelancers), CuántoVale (comparador de precios de supermercados) y LingoWorld para Coltrans (plataforma de inglés corporativo).
 - **CV:** experiencia, habilidades profesionales y formación académica.
 - **Contacto:** acceso directo a WhatsApp.
 
