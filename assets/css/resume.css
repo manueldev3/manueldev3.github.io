@@ -31,3 +31,19 @@
 .white-version .personal-experience-inner .experience-list .resume-single-list .inner .resume-points {
     color: var(--color-body-white);
 }
+
+.section-title .resume-download {
+    display: flex;
+    justify-content: center;
+}
+
+.section-title .resume-download .rn-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-title .resume-download .rn-btn svg {
+    width: 18px;
+    height: 18px;
+}
