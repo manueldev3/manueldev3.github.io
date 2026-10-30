@@ -1,0 +1,33 @@
+/* Ajustes de la sección CV */
+.section-title .resume-profile {
+    max-width: 860px;
+    margin: 25px auto 0;
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--color-body);
+}
+
+.personal-experience-inner .experience-list .resume-single-list .inner .resume-points {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--color-body);
+}
+
+.personal-experience-inner .experience-list .resume-single-list .inner .resume-points li {
+    margin: 0 0 8px;
+}
+
+.personal-experience-inner .experience-list .resume-single-list .inner .resume-points li::marker {
+    color: var(--color-primary);
+}
+
+.personal-experience-inner .experience-list .resume-single-list .inner .heading .title span:empty {
+    display: none;
+}
+
+.white-version .section-title .resume-profile,
+.white-version .personal-experience-inner .experience-list .resume-single-list .inner .resume-points {
+    color: var(--color-body-white);
+}
